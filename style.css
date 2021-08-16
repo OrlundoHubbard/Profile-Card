@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #eee;
+    height: 100vh;
+}
+
+/* Card Images */
+
+.card-container {
+    font-family: Roboto, sans-serif;
+    width: 340px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+}
+
+.card-bg {
+    height: 174px;
+    width: 372px;
+}
+
+.card-background, .card-bg {
+    width: 100%;
+    height: 160px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+
+.card-img {
+    width: 120px;
+    height: 120px;
+    z-index: 1;
+    position: relative;
+    margin-top: -75px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 100px;
+    border: 10px solid #fff;
+}
+
+/* Card Content */
+
+h3 {
+    font-size: 25px;
+    text-align: center;
+    padding: 0 20px 5px 20px;
+}
+
+p {
+    font-size: 16px;
+    text-align: center;
+    padding: 0 20px 5px 20px;
+}
+
+.icons {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;   
+}
+
+a {
+    font-size: 20px;
+    padding: 0 14px;
+    
+}
+
+.fa-facebook {
+    color: hsl(212, 90%, 51%);
+}
+
+.fa-youtube {
+    color: hsl(0, 100%, 48%);
+}
+
+.fa-twitter {
+    color: hsl(204, 65%, 61%);
+}
+
+.fa-instagram {
+    color: hsl(321, 53%, 47%);
+}
+
+i {
+     transition: transform 300ms;
+  
+}
+
+i:hover {
+    transform: translateY(0) scale(1.2);
+}
